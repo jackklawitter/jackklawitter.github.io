@@ -22,6 +22,11 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav a[aria-current="page"] {
+  color: #111;
+  text-decoration: underline;
+}
+
 h1 {
   margin-bottom: 0;
 }
